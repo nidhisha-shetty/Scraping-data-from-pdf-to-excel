@@ -1,0 +1,4 @@
+import pdftables_api
+
+c = pdftables_api.Client('shkr9x0tmry3') #passing the key to the function (key can be retrieved from pdftables.com website)
+c.xlsx('Bank NetBanking Statement.pdf', 'result') # Converting "Bank NetBanking Statement.pdf"(pdf file) to result(excel file)
